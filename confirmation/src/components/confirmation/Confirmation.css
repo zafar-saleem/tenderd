@@ -1,0 +1,40 @@
+
+
+.alert {
+  max-width: 40rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem #999999;
+}
+
+.alert-info {
+  color: #4f4d4d;
+  background-color: #3aa8f6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 0 solid #626161;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0.5rem #000000;
+}
+
+.btn-primary {
+  color: #454444;
+  background-color: #e1dddd;
+}
+
+.btn-danger {
+  color: #f0eded;
+  background-color: #ed3f3f;
+}

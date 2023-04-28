@@ -1,0 +1,36 @@
+#App {
+  position: relative;
+}
+
+.alert {
+  max-width: 25rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 1rem 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem #999999;
+}
+
+.alert-success {
+  color: #f0eded;
+  background-color: #02cb24;
+}
+
+.alert-danger {
+  color: #f0eded;
+  background-color: #ed3f3f;
+}
+
+.alert-warning {
+  color: #4f4d4d;
+  background-color:  #ef850b;
+}
+
+.alert-info {
+  color: #4f4d4d;
+  background-color: #3aa8f6;
+}
